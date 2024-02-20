@@ -1,4 +1,4 @@
-}
+
 html    {
   font-size: 22px;
 }
@@ -33,6 +33,11 @@ body    {
   color: #000000;
 }
 
+a:active {
+  background-color: black;
+  color: white;
+}
+
 header > h1 {
   background-color: lightblue;
   font-family: Roboto;
@@ -55,7 +60,7 @@ header > h1 {
 #who {
   background-color: #FFFFFF;
   text-align: center;
-  margin: 5rem auto;
+  margin: 2rem auto;
   width: 20rem;
   text-align: center;
   font-family: Roboto;
@@ -114,7 +119,7 @@ header > h1 {
 
 #adventures {
   text-align: center;
-  margin: 5rem auto;
+  margin: 2rem auto;
   width: 20rem;
   background-color: #FFFFFF;
   display: block;
@@ -142,7 +147,8 @@ header > h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1%;
+  gap: 5%;
+  margin-right: 0rem;
 }
 
 .a1 {
@@ -160,6 +166,11 @@ header > h1 {
   text-align: justify;
   padding: 1rem;
   border: 2px solid black;
+  margin-right: 2rem;
+}
+
+.photocon img {
+  margin: 0rem;
 }
 
 .a2 {
