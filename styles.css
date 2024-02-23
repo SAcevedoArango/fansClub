@@ -88,6 +88,9 @@ header > h1 {
   border-radius: 100px;
   float:  left;
   margin-right: 1rem;
+  transition: transform 2s ease;
+  animation: rotateIcon 3s linear infinite;
+
 }
 
 .icon2 {
@@ -100,6 +103,20 @@ header > h1 {
   border-radius: 100px;
   float:  right;
   margin-left: 1rem;
+  transition: transform 2s ease;
+  animation: rotateIcon 3s linear infinite;
+}
+
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
 }
 
 .mid {
